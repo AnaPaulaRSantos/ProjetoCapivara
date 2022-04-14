@@ -1,0 +1,213 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+body, ul, li, p {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 1.2em;
+	font-family: arial;
+}
+
+
+/*
+a{
+	color: brown;
+	text-decoration: none;
+}
+
+.header{
+	background-color: green;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+
+}
+
+.menu li{
+	margin-left: 20px;
+
+}
+
+.menu li a{
+	display: block;
+	padding: 10px;
+	background-color: yellow;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size: 7em;
+	padding-top: 100px;
+	margin-left: 10px;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
+
+}
+.flex >div{
+	flex: 1 1 200px;
+	margin: 10px;
+}
+
+.grid1{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	max-width: 780px;
+	margin: 0 auto;
+	grid-gap: 20px;
+}
+*/
+
+a{
+	color: brown;
+	text-decoration: none;
+}
+
+.icon{ 
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+ }
+
+.header{
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px;
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+
+
+}
+
+.menu li{
+	margin: 20px;
+	font-size: 1em;
+
+
+}
+
+.menu>li :hover{
+	background-color: black;
+	transition: 1.5s;
+	color: white;
+}
+
+.menu li a{
+	color: black;
+	display: flex;
+	padding: 20px;
+	background-color: #EBCB1A;
+	border-radius: 5px;
+}
+
+h1{
+	color: black ;
+	display:flex;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: -7px;
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size: 7em;
+}
+
+
+
+.marcador::before{ 
+	content: url(folha2.png);
+	transform: scale(0.9);
+} 
+	
+.marcador::after{
+	content: url(folha1.png);
+	padding: 10px;
+	transform: scale(0.9);
+
+}
+.img1{ 
+	margin-left: 20px;
+	float: left;
+	min-width: 750px ;
+	max-width:750px ;
+	height:500px ;
+ }
+.img2{ 
+	margin-right: 20px;
+	float: right;
+	min-width: 750px ;
+	max-width:750px ;
+	height:500px ;
+ }
+
+ p{
+ 	display: flex;
+ 	text-align: justify;
+ 	padding: 0px 20px 0px 20px;
+ 	text-align: justify;
+ }
+
+ .fix{ 
+ 	clear: right ;
+  }
+  
+
+/*keyframes anima{
+	0% { left: 0px;  right: 0px;}
+	50% {left: 1500px;  right: 0px; }
+	100%{ left: 0px;  right: 1500px;}
+}
+
+.container{
+	display: grid;
+	left: 1500px;
+	right: 1500px;
+	width: 160px;
+	height: 160px;
+	margin-top: 20px;
+	animation-name: anima;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}*/
+
+marquee{
+	width: 100%;
+
+}
+
+footer{
+	border-top: 1px solid black;
+	font-family: 'Sacramento', cursive;
+	font-size: 1.5em;
+	background-color: #F5D115 ;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 3px;
+
+ }
